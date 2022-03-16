@@ -56,7 +56,7 @@ pl2
 
 ![](Scatterplot_Graph_R_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
 
-# Add simple red trend line using geom_smooth.
+# Add simple trend line using geom_smooth.
 
 ``` r
 pl3 <- pl2 + geom_smooth(method="lm",formula=y~log(x),se=FALSE,color='blue')
@@ -97,7 +97,7 @@ pl4
 
 ![](Scatterplot_Graph_R_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
-# Add bw theme so that background is clear
+# Add theme so that background is clear
 
 ``` r
 library(ggthemes)
